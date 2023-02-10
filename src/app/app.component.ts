@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'san-trong-frontend-webapp-community';
+
+  public test() {
+    alert(1);
+  }
 }
